@@ -20,4 +20,12 @@ A summary of your work on the shape of the website
 
 
 
-![Untitled project ‐ Made with Clipchamp (14)](https://user-images.githubusercontent.com/74079025/104610662-ffaefb80-568c-11eb-9372-1aa0663a5db2.gif)
+
+
+![Untitled project ‐ Made with Clipchamp (11)](https://user-images.githubusercontent.com/74079025/104612034-6da7f280-568e-11eb-936c-4a03b84ce4a4.gif)
+
+
+![Untitled project ‐ Made with Clipchamp (20)](https://user-images.githubusercontent.com/74079025/104613723-2d497400-5690-11eb-9fcc-932af1d47aee.gif)
+
+![Untitled project ‐ Made with Clipchamp (16)](https://user-images.githubusercontent.com/74079025/104614778-3be45b00-5691-11eb-8385-2523948c8979.gif)
+
