@@ -23,9 +23,8 @@ A summary of your work on the shape of the website
 
 
 ![Untitled project ‐ Made with Clipchamp (11)](https://user-images.githubusercontent.com/74079025/104612034-6da7f280-568e-11eb-936c-4a03b84ce4a4.gif)
-
-
+<br>
 ![Untitled project ‐ Made with Clipchamp (20)](https://user-images.githubusercontent.com/74079025/104613723-2d497400-5690-11eb-9fcc-932af1d47aee.gif)
-
+<br>
 ![Untitled project ‐ Made with Clipchamp (16)](https://user-images.githubusercontent.com/74079025/104614778-3be45b00-5691-11eb-8385-2523948c8979.gif)
 
