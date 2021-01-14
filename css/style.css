@@ -1,0 +1,441 @@
+
+#main-nav
+{
+    transition: background-color 2s , padding 2s;
+}
+.navbar-padding
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#main-nav
+{
+    transition: background-color 2s , padding 2s;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #Fff !important;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+#colorContainer .colorChange
+  {
+      width: 40px;
+      height: 40px;
+      background-color:red;
+      margin-left: 5px;
+      cursor: pointer;
+  }
+  #colorContainer
+  {
+      position: fixed;
+      top: 30%;
+      left: 0;
+      z-index: 99999999999;
+        
+  }
+  .colorBox
+  {
+    background-color: #ccc;
+  }
+  #colorIcon
+  {
+    
+      font-size: 25px;
+      cursor: pointer;
+  }
+
+.moveUp
+{
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color:white;
+}
+#homepage
+{
+    background-image: url(../images/intro-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 2;
+    
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    color: white;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    
+    
+}
+
+.headerB_animation
+{
+    border: 1px solid #f5f5f5;
+    border-radius: 30px;
+    height: 50px;
+    width: 30px;
+    background-color: transparent;
+    animation-duration: 2s;
+    animation-name: buttonHeaderAn;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 18px;
+   
+}
+
+@keyframes buttonHeaderAn
+{
+    0%{transform: translateY(100%);}
+    15%{transform: translateY(0%);}
+    30%{transform: translateY(75%);}
+    45%{transform: translateY(0%);}
+    60%{transform: translateY(50%);}
+    75%{transform: translateY(0%);}
+    90%{transform: translateY(30%);}
+  
+
+}
+
+
+/* header .innerlayer p::before
+{
+    content: ""; 
+    animation-name:typed;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes typed
+{
+    
+    0%{content: "";}
+    1%{content: "C";}
+    2%{content: "CE";}
+    3%{content: "CEO";}
+    4%{content: "CEO ";}
+    5%{content: "CEO D";}
+    6%{content: "CEO DE";}
+    7%{content: "CEO DEV";}
+    8%{content: "CEO DEVF";}
+    9%{content: "CEO DEVFO";}
+    10%{content: "CEO DEVFOL";}
+    11%{content: "CEO DEVFOLI";}
+    12%{content: "CEO DEVFOLIO";}
+    13%{content: "CEO DEVFOLI";}
+    14%{content: "CEO DEVFOL";}
+    15%{content: "CEO DEVFO";}
+    16%{content: "CEO DEVF";}
+    17%{content: "CEO DE";}
+    18%{content: "CEO D";}
+    19%{content: "CEO ";}
+    20%{content: "CEO";}
+    21%{content: "CE";}
+    22%{content: "C";}
+    23%{content: "";}
+    39%{content: "";}
+
+   
+    40%{content:"W";}
+    41%{content: "WE";}
+    42%{content: "WEP ";}
+    43%{content: "WEP ";}
+    44%{content: "WEP D";}
+    45%{content: "WEP DE";}
+    46%{content: "WEP DEV";}
+    47%{content: "WEP DEVE";}
+    48%{content: "WEP DEVEL";}
+    49%{content: "WEP DEVELO";}
+    50%{content: "WEP DEVELOP";}
+    51%{content: "WEP DEVELOPE";}
+    69%{content: "WEP DEVELOPER";} 
+    70%{content: "WEP DEVELOPE";}
+    71%{content: "WEP DEVELOP";}
+    72%{content: "WEP DEVELO";}
+    73%{content: "WEP DEVEL";}
+    74%{content: "WEP DEVE";}
+    75%{content: "WEP DEV";}
+    76%{content: "WEP DE";}
+    77%{content: "WEP D";}
+    78%{content: "WEP ";}
+    79%{content: "WEP ";}
+    80%{content: "WE";}
+    81%{content:"W";}
+    82%{content:"";}
+
+} */
+
+.navbar-toggler span {
+    display: block;
+    background-color: #ffffff;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+}
+
+
+/******************************************* about section ************************************/
+.mybg_gray
+{
+   background-color: #f5f5f5;
+}
+
+.progress
+{
+    margin: 10px 0px 10px 0px;
+}
+#about .mypadding
+{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/****************************services section****************************************************/
+.line
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+}
+
+.servicesHeader h3
+{
+    color: #1e1e1e;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.servicesHeader p
+{
+    color: #4e4e4e;
+}
+.services_div
+{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+/******************* icons*********************/
+.iconTV
+{
+  color: #1e1e1e;
+  transition: 0.5s;
+}
+.iconCircle
+{
+    border-radius: 50%;
+    border: 10px solid #0078ff;
+    width: 130px;
+    height: 130px;
+    transition: 0.5s;
+    
+    
+
+}
+.services_div:hover .iconCircle
+{
+          background-color: #0078ff;
+          border-color:#acc0d6 ;
+}
+.services_div:hover .iconTV
+{
+    color: white;
+}
+
+/******************************************** <!-- conter section -->******************/
+
+
+.counter
+{
+    
+    background-image: url(../images/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.counterlayer
+{ 
+    background-color: rgba(00,78,255,0.7);
+    padding-top: 10rem;
+    padding-bottom: 10rem; 
+    
+   
+}
+@media screen and (max-width: 1024px)
+{
+    .counter
+    {
+        background-attachment: scroll;   
+    }
+    .counterlayer
+    { 
+        
+        padding-top: 5rem;
+        padding-bottom: 5rem; 
+   
+    }
+
+}
+
+
+.Countericons
+{
+    color: #fff;
+   font-size: 1.3rem;
+}
+.iconCircleCounter
+{
+    border-radius: 50%;
+    border: 10px solid  #cde1f8;
+    width: 5rem;
+    height: 5rem;
+   
+   
+}
+
+/******************************************portifilio section **********************************/
+.PORTFOLIO_item
+{
+    margin:1rem 0px 2rem 0;
+}
+.pluseCircleIcon
+{
+    
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #0078ff;
+  
+}
+.iconpluse
+{
+    width:40px;
+    height: 40px;
+    color:#0078ff;
+    position: absolute;
+    right:25px;
+    top: 30px;
+}
+
+/* scale img when hover */
+.portif_img img
+{
+    transition:transform 1.5s 0s;
+
+}
+
+.PORTFOLIO_item:hover .portif_img img
+{
+    transform:scale(1.5,1.5);
+}
+
+
+/*------------------------------ testimonial section ---------------------------------*/
+
+/* background img */
+.testimonial
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+  
+}
+/*obacity layer*/
+.testimonial_layer
+{
+    background-color: rgba(00,78,255,0.7);
+
+}
+/*content of slider*/
+.testimonial_content
+{
+  padding: 8rem 0rem ;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .testimonial
+    {
+        background-attachment: scroll;   
+    }
+}
+
+.testimonial_icon
+{
+    color: #0078ff;
+
+}
+
+
+/*------------------------------ Blog section ---------------------------------*/
+.blog_itemp_properites
+{
+   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1); 
+   border: 1px solid rgba(0,0,0,.125);
+   border-radius: .25rem;
+}
+
+.blog_itemp_properites h6
+{
+    color: #1e1e1e;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.blog_itemp_properites p
+{
+    color: #4e4e4e;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.blog_last_part img
+{
+    width: 32px;
+    height: 32px;
+   
+    
+}
+.slice_part
+{
+    background-color: #0078ff;
+    position: absolute;
+    padding: 1px 15px 5px;
+    color: #fff;
+    top: 95%;
+    left :33%;
+    border-radius: 5px;
+    
+
+
+}
+
+.blog_last_part
+{
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #f7f7f7;
+    padding: 12px 12px;
+    
+}
+
